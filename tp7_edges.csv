@@ -1,0 +1,8 @@
+from,to,cost
+Tunis,Sousse,140
+Tunis,Kairouan,160
+Sousse,Kairouan,90
+Sousse,Sfax,130
+Kairouan,Gafsa,200
+Sfax,Gafsa,150
+Gafsa,Tozeur,90
