@@ -75,7 +75,7 @@ public class AStarSearch {
 
         return SearchResult.failure(explorationOrder);
     }
-
+    //Gets the heuristic of a node
     private static double heuristicOf(String city, Map<String, Double> heuristics) {
         return heuristics.getOrDefault(city, Double.POSITIVE_INFINITY);
     }
