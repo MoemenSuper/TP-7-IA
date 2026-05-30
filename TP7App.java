@@ -26,6 +26,7 @@ public class TP7App {
 
     private void loadData() {
         try {
+            //Load our data from csv
             CsvGraphLoader loader = new CsvGraphLoader();
             this.graph = loader.loadGraph(Paths.get("tp7_edges.csv"), true);
             this.heuristics = loader.loadHeuristics(Paths.get("tp7_heuristics.csv"));
